@@ -1,5 +1,6 @@
 {
-    "name": "clegginabox/pdf-merger",
+    "name": "applifaction/pdf-merger",
+    "version": "v1.0.1",
     "description": "PDF File Merger for PHP5",
     "license": "MIT",
     "require": {
@@ -8,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "Paul Clegg",
-            "email": "paul@clegginabox.co.uk"
+            "name": "Oliver Ernst",
+            "email": "oliver@applifaction.com"
         }
     ],
     "autoload": {
