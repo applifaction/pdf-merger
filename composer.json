@@ -1,6 +1,6 @@
 {
     "name": "applifaction/pdf-merger",
-    "version": "v1.0.1",
+    "version": "1.0.1",
     "description": "PDF File Merger for PHP5",
     "license": "MIT",
     "require": {
