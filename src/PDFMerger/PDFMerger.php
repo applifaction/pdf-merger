@@ -115,7 +115,6 @@ class PDFMerger
                 return true;
             } else {
                 throw new Exception("Error outputting PDF to '$outputmode'.");
-                return false;
             }
         }
 
@@ -158,6 +157,7 @@ class PDFMerger
     {
         $pages = str_replace(' ', '', $pages);
         $part = explode(',', $pages);
+        $newpages = [];
 
         //parse hyphens
         foreach ($part as $i) {
@@ -169,7 +169,6 @@ class PDFMerger
 
                 if ($x > $y) {
                     throw new Exception("Starting page, '$x' is greater than ending page '$y'.");
-                    return false;
                 }
 
                 //add middle pages

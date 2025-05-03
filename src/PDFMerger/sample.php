@@ -1,5 +1,5 @@
 <?php
-include 'PDFMerger.php';
+include_once 'PDFMerger.php';
 
 $pdf = new PDFMerger;
 
